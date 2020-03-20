@@ -1,0 +1,66 @@
+﻿@model MVCExample.Models.Character
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Character</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Weapon.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Weapon.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Age)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Age)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Vocation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Vocation)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Faction)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Faction)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Gender)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Gender)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.CharacterId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

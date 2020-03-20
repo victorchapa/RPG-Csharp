@@ -56,13 +56,13 @@ namespace MVCExample.RepositoriesImpl
         public ICollection<WeaponDTO> GetAllWeapons()
         {
             using (MappleFakeContext db = new MappleFakeContext()) {
-                WeaponDTO characterDTO;
+                WeaponDTO weaponDTO;
                 List<WeaponDTO> allWeaponDTO = new List<WeaponDTO>();
                 var allWeapons = db.Weapons.ToList<Weapon>();
                 foreach (var weapon in allWeapons)
                 {
-                    characterDTO = DTOModelTransfer.mapper.Map<Weapon, WeaponDTO>(weapon);
-                    allWeaponDTO.Add(characterDTO);
+                    weaponDTO = DTOModelTransfer.mapper.Map<Weapon, WeaponDTO>(weapon);
+                    allWeaponDTO.Add(weaponDTO);
                 }
                 return allWeaponDTO.ToList();
             }
@@ -72,13 +72,13 @@ namespace MVCExample.RepositoriesImpl
         {
             using (MappleFakeContext db = new MappleFakeContext())
             {
-                WeaponDTO characterDTO;
+                WeaponDTO weaponDTO;
                 List<WeaponDTO> allWeaponDTO = new List<WeaponDTO>();
                 var weaponsByKind = db.Weapons.Where(w => w.Kind == WeaponKind).ToList<Weapon>();
                 foreach (var weapon in weaponsByKind)
                 {
-                    characterDTO = DTOModelTransfer.mapper.Map<Weapon, WeaponDTO>(weapon);
-                    allWeaponDTO.Add(characterDTO);
+                    weaponDTO = DTOModelTransfer.mapper.Map<Weapon, WeaponDTO>(weapon);
+                    allWeaponDTO.Add(weaponDTO);
                 }
                 return allWeaponDTO.ToList();
             }

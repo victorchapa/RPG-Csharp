@@ -36,8 +36,8 @@ namespace MVCExample.RepositoriesImpl
         {
             using (MappleFakeContext db = new MappleFakeContext())
             {
-                Character monsterToRemove = db.Characters.Find(monsterId);
-                db.Characters.Remove(monsterToRemove);
+                Monster monsterToRemove = db.Monsters.Find(monsterId);
+                db.Monsters.Remove(monsterToRemove);
                 db.SaveChanges();
                 return true;
             }

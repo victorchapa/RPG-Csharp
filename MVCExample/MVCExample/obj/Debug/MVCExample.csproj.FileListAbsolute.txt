@@ -186,3 +186,16 @@ D:\CSharp\MVC\MVCExample\MVCExample\obj\Debug\MVCExample.csproj.GenerateResource
 D:\CSharp\MVC\MVCExample\MVCExample\obj\Debug\MVCExample.csproj.CopyComplete
 D:\CSharp\MVC\MVCExample\MVCExample\obj\Debug\MVCExample.dll
 D:\CSharp\MVC\MVCExample\MVCExample\obj\Debug\MVCExample.pdb
+D:\CSharp\MVC\MVCExample\MVCExample\bin\x64\libsass.dll
+D:\CSharp\MVC\MVCExample\MVCExample\bin\AdvancedStringBuilder.dll
+D:\CSharp\MVC\MVCExample\MVCExample\bin\BundleTransformer.Core.dll
+D:\CSharp\MVC\MVCExample\MVCExample\bin\BundleTransformer.SassAndScss.dll
+D:\CSharp\MVC\MVCExample\MVCExample\bin\LibSassHost.dll
+D:\CSharp\MVC\MVCExample\MVCExample\bin\System.Buffers.dll
+D:\CSharp\MVC\MVCExample\MVCExample\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\CSharp\MVC\MVCExample\MVCExample\bin\AdvancedStringBuilder.xml
+D:\CSharp\MVC\MVCExample\MVCExample\bin\BundleTransformer.Core.xml
+D:\CSharp\MVC\MVCExample\MVCExample\bin\BundleTransformer.SassAndScss.xml
+D:\CSharp\MVC\MVCExample\MVCExample\bin\LibSassHost.xml
+D:\CSharp\MVC\MVCExample\MVCExample\bin\ru-ru\BundleTransformer.Core.resources.dll
+D:\CSharp\MVC\MVCExample\MVCExample\bin\x86\libsass.dll

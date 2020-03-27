@@ -2,30 +2,52 @@
     ViewBag.Title = "Home Page";
 }
 
+@section AddToHead{
+    <link href="@Url.Content("~/Content/Views/Home.scss")" rel="stylesheet" type="text/css" />
+}
+
 <div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+    <div class="legend-container">
+        <div class="legend-text">
+            <h1>Welcome!</h1>
+            <p>Now you're on Nuvus-earth;</p>
+            <p class="second-node">prepare for the ultimate experience into adventures, peasant!</p>
+        </div>
+    </div>
 </div>
 
 <div class="row">
     <div class="col-md-4">
-        <h2>Getting started</h2>
+        <h2>Go to adventure!</h2>
         <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
+            Start you adventure in the fabolous world of Nuvus-earth; got the supremacy slaying the most dangerous monster and hidden evils that mere in the darkness!
+            Do all this if you don't got Corona-Virus don't be idiot!
         </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+        <p class="pull-right">
+            <a class="btn btn-default" href="/Home/About">
+                Learn more
+                <span class="glyphicon glyphicon-book" aria-hidden="true"></span>
+            </a>
+        </p>
     </div>
     <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+        <h2>Know the best players!</h2>
+        <p>Be part of the most legendaries players on Nuvus-earth!</p>
+        <p class="pull-right">
+            <a class="btn btn-default" href="/Characters">
+                Know the Masters!
+                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+            </a>
+        </p>
     </div>
     <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+        <h2>Know your enemies!</h2>
+        <p>You most keep watch the terrors that live on the deepest wastelands!</p>
+        <p class="pull-right">
+            <a class="btn btn-default" href="/Monsters">
+                Fight us!
+                <span class="glyphicon glyphicon-fire" aria-hidden="true"></span>
+            </a>
+        </p>
     </div>
 </div>
